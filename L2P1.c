@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#define THREAD_NUM 1000
+#define THREAD_NUM 100
 
 pthread_t thread[THREAD_NUM];
 volatile int count = 0;
